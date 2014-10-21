@@ -1,19 +1,26 @@
-10/5 Python 1st Meetup @ Garena HQ
-投影片：https://speakerdeck.com/balicantayao/lab317-python-playground-week-1
+#Python 1st Meetup @ Garena HQ
+Data: 2014/10/05
+[投影片](https://speakerdeck.com/balicantayao/lab317-python-playground-week-1)
 
-環境建置
-Windows
-電腦右鍵內容→系統→進階系統設定→進階→環境變數→系統變數→Path→新增python安裝目錄(ex: C:\python27\)
-TODO: wanshu516@gmail.com
-解決encode error output is not utf-8的問題
-Sublime Text2：Preferences→Browse Package→Python→在Python.sublime-build檔案中加入"encoding": "utf-8"，如下所示。
+## 環境建置
+### Windows
+
+`電腦右鍵內容→系統→進階系統設定→進階→環境變數→系統變數→Path→新增python安裝目錄(ex: C:\python27\)`
+
+#### 解決encode error output is not utf-8的問題
+
+```
+//Sublime Text2：Preferences→Browse Package→Python→在Python.sublime-build檔案中加入"encoding": "utf-8"，如下所示。
+
 {
         "cmd": ["python", "-u", "$file"],
         "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
         "selector": "source.python",
         "encoding": "utf-8"
 }
-Mac
+```
+
+###Mac
 抓好裝好結束
 Linux
 Coding Style
