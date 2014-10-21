@@ -22,7 +22,10 @@ Data: 2014/10/05
 
 ###Mac
 抓好裝好結束
-Linux
+
+###Linux
+To Be Edit...
+
 Coding Style
 註解
 #
@@ -48,18 +51,23 @@ create a file with .py extension
 ctrl + b (cmd + b in mac) to build in Sublime Text
 python abc.py under cmd terminal
 
+
 Print
 print "Hello World!"
+
+加入 `# -*- coding: utf-8 -*- `於檔案開頭
+```
 print "中文"
-加入 # -*- coding: utf-8 -*- 於檔案開頭
+```
 
 變數
+```
 first_string = "Hello"
 sec_string = "World"
 space_string = " "
 my_string = first_string + space_string + sec_string
 print my_string
-
+```
 format string
 format_string = "input number %d in string" % 6
 print format_string
