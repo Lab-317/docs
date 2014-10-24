@@ -1,4 +1,5 @@
-#1005 Python 1st Meetup @ Garena HQ [投影片](https://speakerdeck.com/balicantayao/lab317-python-playground-week-1)
+#1005 Python 1st Meetup @ Garena HQ
+Material: [投影片](https://speakerdeck.com/balicantayao/lab317-python-playground-week-1)
 
 ## 環境建置
 * Windows
@@ -8,6 +9,7 @@
 
 > 解決encode error output is not utf-8的問題：
 > Sublime Text2：Preferences → Browse Package → Python → 在Python.sublime-build檔案中加入"encoding": "utf-8"，如下所示。
+
 ```
 {
 
