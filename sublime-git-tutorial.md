@@ -5,5 +5,5 @@
 
 ##Sublime
 *Plug in
-`Git
-`SidebarGit
+`Git`
+`SidebarGit`
